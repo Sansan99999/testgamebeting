@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Betting Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.0/dist/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Blockchain Betting Site</h1>
+        <button id="connectWallet" class="btn">Connect Wallet</button>
+        <div id="walletInfo"></div>
+        <div class="bet-section">
+            <input type="number" id="betAmount" placeholder="Bet Amount (ETH)" />
+            <button id="placeBet" class="btn">Place Bet</button>
+        </div>
+        <div id="transactionStatus"></div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
